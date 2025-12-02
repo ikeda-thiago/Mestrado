@@ -1,3 +1,5 @@
+<h1 align="center"> Problemas Clássicos </h1>
+
 O objetivo principal é realizar uma avaliação prática e comparativa do desempenho e da usabilidade do Devito, utilizando como referência diferentes bases de comparação conforme a natureza de cada problema. Para isso, selecionaram-se problemas modelo clássicos da física matemática:
 
 * *EDP Elíptica*, representada pela equação de Poisson, cujos resultados numéricos serão comparados com a solução analítica;
