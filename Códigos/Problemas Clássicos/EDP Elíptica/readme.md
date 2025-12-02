@@ -1,4 +1,4 @@
-
+<h1 align="center"> EDP Elíptica </h1>
 
 Equações diferenciais parciais elípticas representam uma classe fundamental de problemas na física matemática e engenharia, caracterizando fenômenos em estado estacionário cujos efeitos se propagam instantaneamente em todas as direções. A Equação de Poisson constitui o exemplo paradigmático deste tipo de equação.
 
