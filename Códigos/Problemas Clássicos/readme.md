@@ -2,9 +2,9 @@
 
 O objetivo principal é realizar uma avaliação prática e comparativa do desempenho e da usabilidade do Devito, utilizando como referência diferentes bases de comparação conforme a natureza de cada problema. Para isso, selecionaram-se problemas modelo clássicos da física matemática:
 
-* *EDP Elíptica*, representada pela equação de Poisson, cujos resultados numéricos serão comparados com a solução analítica;
-* *EDP Hiperbólica*, representada por problemas de convecção, cuja implementação em Devito será comparada com uma implementação equivalente usando NumPy;
-* *EDP Parabólica*, representada por problemas de difusão, que será validada frente à solução analítica conhecida.
+* **EDP Elíptica**, representada pela equação de Poisson, cujos resultados numéricos serão comparados com a solução analítica;
+* **EDP Hiperbólica**, representada por problemas de convecção, cuja implementação em Devito será comparada com uma implementação equivalente usando NumPy;
+* **EDP Parabólica**, representada por problemas de difusão, que será validada frente à solução analítica conhecida.
 
 Além da comparação de desempenho e precisão, busca-se demonstrar de forma clara a metodologia de utilização do Devito. Para cada problema, serão apresentados e explicados trechos de código essenciais, ilustrando desde a definição simbólica das variáveis e equações até a execução do operador gerado, permitindo assim uma compreensão prática do seu fluxo de trabalho e sintaxe.
 
