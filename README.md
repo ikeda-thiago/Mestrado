@@ -1,3 +1,5 @@
+(sujeito a mudanças)
+
 # Dissertação de Mestrado - Explorando Devito: uma Abordagem para Otimizar a Resolução de Escoamentos Viscosos por Diferenças Finitas
 
 ## Códigos da Dissertação
