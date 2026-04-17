@@ -7,11 +7,11 @@ A correta discretização do termo fonte é crucial para a precisão numérica d
 
 O objetivo principal desta seção é demonstrar a flexibilidade do Devito na implementação de termos fonte com complexidade crescente, seguindo uma progressão pedagógica que inclui:
 
-* Termo fonte constante ($f = c$): caso mais elementar, representando geração uniforme em todo o domínio;
-* Termo fonte espacialmente dependente ($f = f(x)$): variação unidimensional ao longo de uma direção espacial;
-* Termo fonte bidimensional ($f = f(x, y)$): variação completa no espaço bidimensional;
-* Termo fonte espaço-temporal ($f = f(t, x)$): dependência temporal combinada com variação espacial unidimensional;
-* Termo fonte completo ($f = f(t, x, y)$): caso mais geral com dependência temporal e espacial completa.
+* Termo fonte constante: caso mais elementar, representando geração uniforme em todo o domínio;
+* Termo fonte espacialmente dependente: variação unidimensional ao longo de uma direção espacial;
+* Termo fonte bidimensional: variação completa no espaço bidimensional;
+* Termo fonte espaço-temporal: dependência temporal combinada com variação espacial unidimensional;
+* Termo fonte completo: caso mais geral com dependência temporal e espacial completa.
 
 Através desta abordagem progressiva, busca-se não apenas ilustrar as capacidades do Devito para tratar problemas com diferentes níveis de complexidade, mas também fornecer um roteiro para a implementação de termos fonte arbitrários em problemas de equações diferenciais parciais. A análise comparativa das soluções numéricas para cada caso permitirá avaliar a influência do termo fonte no comportamento da solução e verificar a correta implementação no Devito.
 
