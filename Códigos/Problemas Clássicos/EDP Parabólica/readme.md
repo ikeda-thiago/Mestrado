@@ -1,6 +1,8 @@
 
 A equação de difusão representa um dos modelos mais fundamentais na física matemática, descrevendo fenômenos de transporte de massa, calor ou outras grandezas através de meios materiais. Nesta seção, aborda-se a equação de difusão bidimensional na forma:
+
 $$ \dfrac{\partial T}{\partial t} - \nu \dfrac{\partial ^2 T}{\partial x^2} - \nu \dfrac{\partial ^2 T}{\partial y^2} =  f, $$
+
 em que $T(t, x, y)$ representa o transporte de calor ($^\text{o}C$), $\nu$ o coeficiente de difusidade térmica ($m^2/s$) e $f$ o termo fonte ($^\text{o}C/s$) que modela uma fonte ou sumidouro de calor em um domínio $\Omega_1 = [0,1]\times [0,1]$ ou $\Omega_2 = [0,2\pi]\times[0,2\pi]$.
 
 A correta discretização do termo fonte é crucial para a precisão numérica de esquemas de diferenças finitas. Diferentes formulações do termo fonte podem representar desde casos simples com geração uniforme até situações complexas com dependência espacial e temporal.
