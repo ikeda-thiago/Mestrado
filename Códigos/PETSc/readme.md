@@ -1,3 +1,5 @@
+<h1 align="center"> Integração PETSc+Devito </h1>
+
 Uma limitação fundamental identificada no uso atual do Devito é a dependência predominante de métodos explícitos para a resolução de sistemas lineares, particularmente no contexto da equação de Poisson. Embora a técnica de psuedo-transiente contorne essa restrição, ela introduz um custo computacional adicional e não explora todo o potencial de métodos iterativos avançados.
 
 Para superar essa limitação, este trabalho apresenta uma integração experimental entre o Devito e a biblioteca PETSc (Portable, Extensible Toolkit for Scientific Computation), desenvolvida em colaboração com Zoe Leibowitz (https://github.com/ZoeLeibowitz), pós-doutoranda do Imperial College London. Esta integração permite a utilização de métodos implícitos e iterativos combinados com pré-condicionadores avançados, viabilizando a resolução eficiente de sistemas lineares esparsos resultantes da discretização de problemas elípticos.
